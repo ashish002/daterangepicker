@@ -10,7 +10,7 @@ declare var $: any;
   templateUrl: './daterangepicker.component.html',
   styleUrls: ['./daterangepicker.component.css']
 })
-export class DaterangepickerComponent implements OnInit {
+export class DaterangepickerComponent implements OnInit{
 
   @Input('id') id: string;
   @Input('enabledPresets') enabledPresets: Array<string>;

@@ -1,0 +1,7 @@
+<!--<tooltip-content #tooltipContent>{{tooltipMessage}}</tooltip-content>-->
+<span [ngClass]="{'disabled-custom': !enableDateRangeOption }"
+      tooltipPlacement="bottom">
+    <div [attr.id]="id" #dateRangePicker class="btn btn-default dateRangePicker">
+      <span #dateRangePickerInput>{{selectedDuration}}</span> <b class="caret"></b>
+    </div>
+  </span>

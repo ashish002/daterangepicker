@@ -15,6 +15,9 @@ import {DaterangepickerComponent} from "./daterangepicker/daterangepicker.compon
     AppRoutingModule
   ],
   providers: [],
+  exports: [
+    DaterangepickerComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

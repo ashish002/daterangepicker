@@ -3,20 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {DaterangepickerComponent} from "./daterangepicker/daterangepicker.component";
+import { DaterangepickerModule} from "./daterangepicker/daterangepicker.module";
 
 @NgModule({
   declarations: [
     AppComponent,
-    DaterangepickerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DaterangepickerModule
   ],
   providers: [],
   exports: [
-    DaterangepickerComponent
+
   ],
   bootstrap: [AppComponent]
 })
